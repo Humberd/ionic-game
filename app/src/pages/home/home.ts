@@ -6,9 +6,10 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePageComponent {
+  myCustomMessage = "hello";
 
   constructor(public navCtrl: NavController) {
-
+    console.log(this.myCustomMessage);
   }
 
 }
